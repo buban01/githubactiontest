@@ -9,9 +9,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/githubactiontest@master
+      - uses: buban01/githubactiontest@master
       - name: Set up JDK 11
-        uses: actions/setup-java@master
+        uses: buban01/setup-java@master
         with:
           java-version: '11'
           distribution: 'adopt'
